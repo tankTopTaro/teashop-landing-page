@@ -1,15 +1,13 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 h1, h2, p {text-align: center;}
 
-header {
-    background-image: linear-gradient(rgba(38, 38, 39, 0.48), rgba(138, 134, 135, 0.28)), url(../images/pexels-charlotte-may-5947093.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    position: relative;
+body {
+    /*background-image: linear-gradient(rgba(38, 38, 39, 0.48), rgba(138, 134, 135, 0.28)), url(../images/pexels-charlotte-may-5947093.jpg);*/
+    background-color: #576b33;
 }
+
+div {
+    width: 80%;
+    background-color: #49592a;
+    background-color: #86945e;
+}
+
