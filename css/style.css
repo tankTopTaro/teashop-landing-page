@@ -5,6 +5,7 @@
 }
 
 body {
+    color: white;
     font-family: 'Noto Sans JP', sans-serif;
 }
 
@@ -19,12 +20,35 @@ body {
 
 h1, h2, p {text-align: center;}
 
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+hr {
+    height:2px;
+    border-style: none;
+    background-color: rgba(134, 148, 94, 0.48);
+}
+
+.tea-brand {
+    font-size: 70px;
+    color: rgb(87, 107, 51)
+}
+
 .tea-menu {
     width: 80%;
-    background-color: #86945e9a;
+    background-color: rgba(134, 148, 94, 0.28);
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
+    border-radius: 5%;
+    box-shadow: 2px 3px 13px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 3px 13px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 13px 1px rgba(0,0,0,0.75);
     /*background-position: center;
     margin: top right bottom left
     padding: top&bottom left&right
@@ -34,10 +58,11 @@ h1, h2, p {text-align: center;}
 
 .tea-item p{
     display: inline-block;
+    margin: 5px 5px;
 }
 
  .tea-flavor, .collections-flavor {
-    width: 80%;
+    width: 75%;
     text-align: left;
     /*background-color: rgba(0, 0, 255, 0.233);
     float:left;*/
@@ -51,10 +76,19 @@ h1, h2, p {text-align: center;}
  }
 
 footer {
-    background-color: #86945e9a;
     width:80%;
     margin: 0 auto;
     padding: 10px;
+    color: white;
+}
+footer p {
+    margin: 0;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
 }
 
 .established {
