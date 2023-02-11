@@ -34,14 +34,14 @@ h1, h2, p {text-align: center;}
     display: inline-block;
 }
 
- .tea-flavor {
+ .tea-flavor, .collections-flavor {
     width: 75%;
     /*float:left;
     text-align: left;*/
     background-color: rgba(0, 0, 255, 0.233);
  }
 
- .tea-price {
+ .tea-price, .collections-price {
     width: 25%;
     /*float: right;
     text-align: right;*/
