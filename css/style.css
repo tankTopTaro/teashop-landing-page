@@ -35,14 +35,14 @@ h1, h2, p {text-align: center;}
 }
 
  .tea-flavor, .collections-flavor {
-    width: 75%;
+    width: 80%;
     /*float:left;
     text-align: left;*/
     background-color: rgba(0, 0, 255, 0.233);
  }
 
  .tea-price, .collections-price {
-    width: 25%;
+    width: 20%;
     /*float: right;
     text-align: right;*/
     background-color: rgba(137, 43, 226, 0.19);
