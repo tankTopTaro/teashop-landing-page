@@ -14,25 +14,27 @@ body {
     /*background-color: #576b33;*/
 }
 
+article {
+    padding: 12px;
+}
+
 .tea-menu {
     width: 80%;
-    /*background-position: center;
-    position: relative;
-    background-color: #49592a;*/
     background-color: #86945e9a;
     margin-left: auto;
     margin-right: auto;
+    /*background-position: center;
+    position: relative;
+    background-color: #49592a;*/
 }
 
  .tea-flavor {
     float:left;
     width: 50%;
-    background-color: aquamarine;
  }
 
  .tea-price {
     width: 50%;
-    background-color: blanchedalmond;
     float: right;
  }
 
