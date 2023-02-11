@@ -27,7 +27,10 @@ h1, h2, p {text-align: center;}
     margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     /*background-position: center;
+    margin: top right bottom left
     position: relative;
     background-color: #49592a;*/
 }
