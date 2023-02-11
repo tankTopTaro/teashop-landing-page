@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Ubuntu:wght@400;700&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -11,7 +9,8 @@ body {
 }
 
 body {
-    background-image: url(../images/pexels-charlotte-may-5947093.jpg);
+    background-image: url(../images/pexels-charlotte-may-5946646.jpg);
+    background-repeat: no-repeat;
     height:100vh;
     background-size: cover;
     position: relative;
@@ -25,12 +24,10 @@ h1, h2, p {text-align: center;}
     background-color: #86945e9a;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
     /*background-position: center;
     margin: top right bottom left
+    padding: top&bottom left&right
     position: relative;
     background-color: #49592a;*/
 }
@@ -41,9 +38,9 @@ h1, h2, p {text-align: center;}
 
  .tea-flavor, .collections-flavor {
     width: 80%;
+    background-color: rgba(0, 0, 255, 0.233);
     /*float:left;
     text-align: left;*/
-    background-color: rgba(0, 0, 255, 0.233);
  }
 
  .tea-price, .collections-price {
