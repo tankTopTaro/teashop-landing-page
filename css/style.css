@@ -1,1 +1,8 @@
+body {background: linear-gradient(rgba(3, 4, 7, 0.48), rgba(5, 10, 30, 0.48));}
 h1, h2, p {text-align: center;}
+header {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
