@@ -38,22 +38,26 @@ h1, h2, p {text-align: center;}
 
  .tea-flavor, .collections-flavor {
     width: 80%;
-    background-color: rgba(0, 0, 255, 0.233);
-    /*float:left;
-    text-align: left;*/
+    text-align: left;
+    /*background-color: rgba(0, 0, 255, 0.233);
+    float:left;*/
  }
 
  .tea-price, .collections-price {
     width: 20%;
-    /*float: right;
-    text-align: right;*/
-    background-color: rgba(137, 43, 226, 0.19);
+    text-align: right;
+    /*background-color: rgba(137, 43, 226, 0.19);
+    float: right;*/
  }
 
 footer {
     background-color: #86945e9a;
     width:80%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.established {
+    font-style: italic;
 }
 
