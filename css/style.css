@@ -14,8 +14,10 @@ body {
     /*background-color: #576b33;*/
 }
 
-article {
-    padding: 12px;
+.tea-item {
+    background-color: aquamarine;
+    display: inline-block;
+    width: 20vw;
 }
 
 .tea-menu {
