@@ -10,11 +10,12 @@ body {
 }
 
 body {
-    background-image: url(../images/pexels-charlotte-may-5946646.jpg);
-    background-repeat: no-repeat;
-    height:100vh;
+    background: url(../images/close-up-matcha-tea-cups-with-copy-space.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    position: relative;
+    height:100vh;
     /*background-color: #576b33;*/
 }
 
@@ -36,7 +37,7 @@ hr {
 
 .tea-brand {
     font-size: 70px;
-    color: rgb(87, 107, 51)
+    color: rgb(73, 89, 42)
 }
 
 .tea-menu {
@@ -87,7 +88,6 @@ footer p {
 }
 
 footer a {
-    color: white;
     text-decoration: none;
 }
 
@@ -95,3 +95,25 @@ footer a {
     font-style: italic;
 }
 
+a:link {
+    color:white;
+}
+
+a:hover {
+    color: lightgray;
+}
+
+a:active {
+    color: rgb(73, 89, 42)
+}
+
+.tea-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 50px;
+    height:50px;
+}
