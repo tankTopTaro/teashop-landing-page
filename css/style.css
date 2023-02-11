@@ -11,7 +11,7 @@ body {
 }
 
 body {
-    background: linear-gradient(rgba(205, 208, 192, 0.48), rgba(73, 89, 42, 0.48)), url(../images/pexels-charlotte-may-5947093.jpg);
+    background-image: url(../images/pexels-charlotte-may-5947093.jpg);
     height:100vh;
     background-size: cover;
     position: relative;
@@ -25,6 +25,8 @@ h1, h2, p {text-align: center;}
     background-color: #86945e9a;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
     /*background-position: center;
     position: relative;
     background-color: #49592a;*/
