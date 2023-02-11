@@ -9,5 +9,7 @@ div {
     width: 80%;
     background-color: #49592a;
     background-color: #86945e;
+    margin-left: auto;
+    margin-right: auto;
 }
 
