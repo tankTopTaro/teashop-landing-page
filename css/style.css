@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Ubuntu:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-h1, h2, p {text-align: center;}
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
 
 body {
     background: linear-gradient(rgba(205, 208, 192, 0.48), rgba(73, 89, 42, 0.48)), url(../images/pexels-charlotte-may-5947093.jpg);
@@ -13,6 +17,8 @@ body {
     position: relative;
     /*background-color: #576b33;*/
 }
+
+h1, h2, p {text-align: center;}
 
 .tea-menu {
     width: 80%;
@@ -29,17 +35,17 @@ body {
 }
 
  .tea-flavor {
-    width: 50%;
+    width: 75%;
     /*float:left;
-    text-align: left;
-    background-color: blue;*/
+    text-align: left;*/
+    background-color: rgba(0, 0, 255, 0.233);
  }
 
  .tea-price {
-    width: 50%;
+    width: 25%;
     /*float: right;
-    text-align: right;
-    background-color: blueviolet;*/
+    text-align: right;*/
+    background-color: rgba(137, 43, 226, 0.19);
  }
 
 footer {
