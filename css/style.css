@@ -14,12 +14,6 @@ body {
     /*background-color: #576b33;*/
 }
 
-.tea-item {
-    background-color: aquamarine;
-    display: inline-block;
-    width: 20vw;
-}
-
 .tea-menu {
     width: 80%;
     background-color: #86945e9a;
@@ -30,14 +24,22 @@ body {
     background-color: #49592a;*/
 }
 
+.tea-item p{
+    display: inline-block;
+}
+
  .tea-flavor {
-    float:left;
     width: 50%;
+    /*float:left;
+    text-align: left;
+    background-color: blue;*/
  }
 
  .tea-price {
     width: 50%;
-    float: right;
+    /*float: right;
+    text-align: right;
+    background-color: blueviolet;*/
  }
 
 footer {
